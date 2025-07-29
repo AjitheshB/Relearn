@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relearn – Learn School + Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-purple-200 text-gray-800">
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-lg p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-700">Relearn</h1>
+    <div class="space-x-4">
+      <a href="#grades" class="text-sm text-gray-700 hover:text-blue-600">Grades</a>
+      <a href="#skills" class="text-sm text-gray-700 hover:text-blue-600">Life Skills</a>
+      <a href="#quizzes" class="text-sm text-gray-700 hover:text-blue-600">Quizzes</a>
+      <a href="#mentors" class="text-sm text-gray-700 hover:text-blue-600">AI Mentors</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="text-center py-16 px-4">
+    <h2 class="text-4xl font-extrabold text-blue-800">Where School Meets Real Life</h2>
+    <p class="text-lg mt-4 text-gray-700 max-w-xl mx-auto">Learn Math, Science, English — and also Mental Health, AI, Finance, and more. All in one place. Built by Gen Z, for Gen Z.</p>
+    <a href="#grades" class="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-700 transition">Start Learning</a>
+  </section>
+
+  <!-- GRADES SECTION -->
+  <section id="grades" class="py-10 px-6">
+    <h3 class="text-2xl font-bold text-blue-800 mb-6">Explore by Grade</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <a href="#grade9" class="p-4 bg-white rounded-xl shadow hover:shadow-lg">Grade 9</a>
+      <a href="#grade10" class="p-4 bg-white rounded-xl shadow hover:shadow-lg">Grade 10</a>
+      <a href="#grade11" class="p-4 bg-white rounded-xl shadow hover:shadow-lg">Grade 11</a>
+    </div>
+  </section>
+
+  <!-- LIFE SKILLS SECTION -->
+  <section id="skills" class="py-10 px-6">
+    <h3 class="text-2xl font-bold text-purple-800 mb-6">Learn Real-World Skills</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="p-4 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-lg">Finance</h4>
+        <p class="text-sm">Budgeting, savings, investing simplified for students.</p>
+      </div>
+      <div class="p-4 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-lg">Mental Health</h4>
+        <p class="text-sm">Coping strategies, emotional intelligence, and self-care.</p>
+      </div>
+      <div class="p-4 bg-white rounded-xl shadow">
+        <h4 class="font-semibold text-lg">AI & Future Skills</h4>
+        <p class="text-sm">Learn how AI works and how to use tools like ChatGPT.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZZES SECTION -->
+  <section id="quizzes" class="py-10 px-6">
+    <h3 class="text-2xl font-bold text-blue-800 mb-6">Quick Quizzes</h3>
+    <div class="space-y-4">
+      <div class="bg-white p-4 rounded-xl shadow">
+        <p class="font-semibold">Grade 9 Physics: Motion Quiz</p>
+        <ol class="list-decimal pl-5 text-sm">
+          <li>What is acceleration?</li>
+          <li>What is the unit of velocity?</li>
+          <li>Sketch a distance-time graph for uniform speed.</li>
+        </ol>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow">
+        <p class="font-semibold">Real-World Skill: Budgeting Basics</p>
+        <ol class="list-decimal pl-5 text-sm">
+          <li>What does it mean to budget?</li>
+          <li>Name one fixed and one variable expense.</li>
+          <li>What is a savings goal?</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI MENTORS SECTION -->
+  <section id="mentors" class="py-10 px-6">
+    <h3 class="text-2xl font-bold text-purple-800 mb-6">Meet Your AI Mentors</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 rounded-xl shadow">
+        <h4 class="text-lg font-semibold">Ask Ms. Nova</h4>
+        <p class="text-sm">Your AI Math teacher who breaks it down step-by-step.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow">
+        <h4 class="text-lg font-semibold">Coach Atlas</h4>
+        <p class="text-sm">Helps you stay productive, mentally strong, and organized.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow">
+        <h4 class="text-lg font-semibold">Dr. Byte</h4>
+        <p class="text-sm">Teaches you coding, tech, and how AI works.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-sm text-gray-600">
+    Built with ❤️ by Relearn | <a href="#" class="text-blue-600 hover:underline">GitHub</a>
+  </footer>
+</body>
+</html>
