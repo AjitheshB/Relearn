@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grade 9 | Relearn</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Relearn</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="grade9.html">Grade 9</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h2>Grade 9 Subjects</h2>
+    <p>Choose a subject to explore lessons and quizzes</p>
+  </section>
+
+  <section class="cards">
+    <a href="quiz.html?subject=Math" class="card">📐 Math</a>
+    <a href="quiz.html?subject=Science" class="card">🔬 Science</a>
+    <a href="quiz.html?subject=English" class="card">📘 English</a>
+    <a href="quiz.html?subject=French" class="card">🇫🇷 French</a>
+    <a href="quiz.html?subject=CS" class="card">💻 Computer Science</a>
+    <a href="quiz.html?subject=Economics" class="card">💰 Economics</a>
+  </section>
+
+  <footer>
+    <p>Relearn | Grade 9</p>
+  </footer>
+</body>
+</html>
